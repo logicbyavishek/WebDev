@@ -16,11 +16,15 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 5;
 }
 #box2{
     height: 200px;
     width: 200px;
     background-color: rgb(30, 199, 246);
+    position: absolute;
+    top: 40%;
+    left: 55%;
 }
 #box3{
     height: 200px;
