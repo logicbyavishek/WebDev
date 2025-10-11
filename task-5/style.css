@@ -83,7 +83,7 @@ h1{
     height: 40%;
     background: linear-gradient(transparent , rgba(0, 0, 0, 0.752));
     bottom: -40%;
-    transition: all ease 0.7s;
+    transition: all ease 1.05s;
     display: flex;
     align-items: center;
     justify-content: space-between;
