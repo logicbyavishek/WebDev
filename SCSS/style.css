@@ -10,23 +10,23 @@ html, body {
 }
 
 .blue {
-  padding: 30px 40px;
-  background-color: blue;
-  color: white;
-  font-size: 18px;
+  padding: 25px 35px;
+  font-size: 20px;
+  color: red;
+  background-color: pink;
   border: none;
-  border-radius: 8px;
   outline: none;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .red {
-  padding: 30px 40px;
+  padding: 25px 35px;
+  font-size: 24px;
+  color: pink;
   background-color: red;
-  color: white;
-  font-size: 18px;
   border: none;
-  border-radius: 8px;
   outline: none;
+  border-radius: 10px;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
