@@ -1,5 +1,3 @@
-@import "./button";
-
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +9,40 @@ html,body{
     width: 100%;
 }
 
-.blue{
-    @include button-style(pink,red,20px);
-}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    background-color: black;
+    
+    section{
+        height: 100%;
+        flex-grow: 1;
+        border: 2px solid rgb(19, 18, 18);
+        transition: all 1.05s ease-in-out ;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    section:hover{
+        flex-grow: 2.5;
+    }
 
-.red{
-    @include button-style(red,pink,24px);
+    section:nth-child(1){
+        background-image: url(https://i.pinimg.com/1200x/6a/0f/81/6a0f811f418a3477be8b3fdce3a737e5.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(https://i.pinimg.com/736x/d6/60/32/d66032d6230d8bf2d714514ba2b7cd64.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(https://i.pinimg.com/1200x/e8/ed/34/e8ed34de5111c3a83708357f87fea105.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(https://i.pinimg.com/736x/af/96/c8/af96c81276cc8912688676586dbfe61f.jpg);
+    }
+    section:nth-child(5){
+        background-image: url(https://i.pinimg.com/1200x/38/e4/a2/38e4a2a1f96049449ee52786a73e7bb6.jpg);
+    }
+
 }
