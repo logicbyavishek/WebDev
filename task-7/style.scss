@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 24vw 24vw 24vw 27vw;
+    grid-template-rows: 33vh 33vh 33vh;
+    gap:  0.25vw;
+    grid-template-areas:    "sec1 sec2 sec2 sec2"
+                            "sec1 sec2 sec2 sec2"
+                            "sec1 sec3 sec4 sec5"
+    ;
+    overflow: hidden;
+    gap: 8px;
+    section{
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sec1{
+        grid-area: sec1;
+        background-image: url(https://i.pinimg.com/736x/44/4d/83/444d838453b41d7acb9d20ddc9e39d38.jpg);
+    }
+    .sec2{
+        grid-area: sec2;
+        background-image: url(./kk.jpg);
+    }
+    .sec3{
+        grid-area: sec3;
+        background-image: url(https://i.pinimg.com/736x/37/21/c5/3721c5bcec7b841679e401c404086fc8.jpg);
+        
+    }
+    .sec4{
+        grid-area: sec4;
+        background-image: url(https://i.pinimg.com/736x/b5/05/12/b50512fb28a77e745910e07a3e41d475.jpg);
+    }
+    .sec5{
+        grid-area: sec5;
+        background-image: url(https://i.pinimg.com/736x/2e/07/d4/2e07d4ace23cbca04c7bb05d4d96dc2d.jpg);
+    }
+}
